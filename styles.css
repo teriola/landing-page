@@ -23,7 +23,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 ul {
@@ -97,7 +97,36 @@ a {
     margin-top: 20px;
 }
 
-img {
+.header img {
     height: 250px;
     width: 390px;
 }
+
+/*INFORMATION-------------------*/
+.information {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.information-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+/*QUOTE--------------------------*/
