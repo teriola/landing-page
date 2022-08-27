@@ -130,3 +130,19 @@ a {
 }
 
 /*QUOTE--------------------------*/
+
+.quote-container {
+    background-color: #e5e7eb;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: 700;
+}
