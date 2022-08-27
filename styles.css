@@ -36,15 +36,17 @@ a {
 }
 
 /*HEADER------------------------*/
-/*HEADER*/
 .header {
     background-color: #1f2937;
     width: 100%;
 }
 
+/*HEADER LOGO & LINKS*/
+
 .header-wrapper {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .header-wrapper h1 {
@@ -60,3 +62,42 @@ a {
 }
 
 /*HEADER HERO*/
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 30%;
+}
+
+.hero-wrapper h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-wrapper p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+img {
+    height: 250px;
+    width: 390px;
+}
